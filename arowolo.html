@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web</title>
+    <link rel="stylesheet" href="aro.css">
+</head>
+<body>
+    <div class="navbar">
+        
+            <h5 class="logo"><span>A</span>ROWOLO <span>V</span>ENTURE</h5>
+            
+    </div>
+    <div class="homr">
+    <h1>Welcome to arowolo venture offical website </h1>
+    <h1> where quality poultry meets passion</h1>
+    <h1>Experience the best of poultry farming with us</h1>
+
+</div>
+<div class="navbar">
+    <ul class="log">
+        <li>
+        <a href="#"><img src="home.gif" height="50pxpx"width="50px"background="none"><span class="list">H</span>ome</a></li>
+        <li><a href="#"><img src="information.gif" height="50pxpx"width="50px"><span class="list">A</span>BOUT</a></li>
+        <li><a href="#contact"><img src="contact.gif" height="50pxpx"width="50px"><span class="list">C</span>ONTACT</a></li>
+       <li><a href="#"><img src="more.gif" height="50pxpx"width="50px"><span class="list">M</span>ore</a></li>
+    </ul>
+</div>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <label for="full-name">Full Name:</label>
+      <input type="text" id="full-name" name="full-name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">What would you like us to know?</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <!-- Footer Social Links -->
+  <footer>
+    <a href="https://wa.me/message/CIR60TRRYXUAN1" target="_blank"><img src="WhatsApp.svg" alt="WhatsApp"></a>
+    <a href="https://" target="_blank"><img src="github-logo.png" alt="GitHub"></a>
+    <a href="https://twitter.com" target="_blank"><img src="twitter-logo.png" alt="Twitter"></a>
+  </footer>
+</body>
+<Script>
+    javascript
+document.getElementById("contact-form").addEventListener("submit", function(event) {
+    event.preventDefault();
+    alert("Thank you for your message!");
+    this.reset();
+});
+</Script>
+</html>
